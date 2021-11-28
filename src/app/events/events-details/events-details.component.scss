@@ -1,0 +1,29 @@
+.details-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.details-wrapper mat-card {
+  width: 50%;
+}
+
+.main {
+width: calc(60%);
+}
+
+button mat-icon {
+  font-size: xxx-large;
+}
+
+mat-card-header {
+  border-bottom: 1px solid var(--evt-green);
+}
+
+mat-card-content {
+  display: flex;
+}
+
+mat-card-content p {
+  word-break: break-word;
+}

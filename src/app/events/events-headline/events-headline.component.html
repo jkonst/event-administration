@@ -1,0 +1,22 @@
+<mat-card *ngFor="let event of events$ | async" class="event-card mat-elevation-z10">
+  <div class="main-headline"  [routerLink]="['/events', event.id]"
+       [queryParams]="{cat: category}">
+    <mat-card-header>
+      <mat-card-title>{{event.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <p>{{'Starts at: ' }} {{event.startDateTime | date: 'short'}}</p>
+    </mat-card-content>
+  </div>
+  <mat-card-actions>
+    <button id="edit" mat-icon-button
+            (click)="edit(event)">
+      <mat-icon>edit</mat-icon>
+    </button>
+    <button id="delete" mat-icon-button
+            (click)="delete(event.id)">
+      <mat-icon>delete</mat-icon>
+    </button>
+  </mat-card-actions>
+</mat-card>
+<mat-paginator [pageSizeOptions]="[2, 4, 8, 16, 32, 64, 128]"></mat-paginator>

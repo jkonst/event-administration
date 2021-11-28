@@ -1,0 +1,19 @@
+@import"./theme/colors.scss";
+@import"./theme/events.scss";
+@import"./theme/buttons.scss";
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+body,
+input,
+textarea,
+button {
+  font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+h3 {
+  text-align: center;
+}

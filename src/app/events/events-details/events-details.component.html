@@ -1,0 +1,38 @@
+<div class="details-wrapper" *ngIf="event$ | async as event; else eventNotFound">
+  <mat-card  class="event-card mat-elevation-z10">
+    <mat-card-header>
+      <mat-card-title>{{event.title}}</mat-card-title>
+    </mat-card-header>
+    <mat-card-content>
+      <div class="main">
+        <h4>{{'Start Date and Time'}}</h4>
+        <p>{{event.startDateTime | date:'short'}}</p>
+        <h4>{{'End Date and Time'}}</h4>
+        <p>{{event.endDateTime | date:'short'}}</p>
+        <ng-container *ngIf="event.location">
+          <h4>{{'Location'}}</h4>
+          <p>{{event.location.name + ' (' + event.location.countryISO + ')'}}</p>
+        </ng-container>
+        <h4>{{'Description'}}</h4>
+        <p>{{event.description}}</p>
+      </div>
+      <div class="weather-info">
+        <h4>{{'Temperature'}}</h4>
+        <p>{{event.temperature === unknownTemp ?
+          event.temperature : event.temperature + '&deg;C'}}</p>
+        <img *ngIf="event.weatherIcon" mat-card-sm-image
+             [src]="weatherIconsBaseUrl + event.weatherIcon +'.png'"
+             alt="weather-icon">
+      </div>
+    </mat-card-content>
+  </mat-card>
+  <button mat-icon-button color="primary"
+          [routerLink]="['/']" [queryParams]="{cat: category}">
+    <mat-icon>keyboard_backspace</mat-icon>
+  </button>
+</div>
+<ng-template #eventNotFound>
+  <div class="not-found">
+    {{'Event with id: ' + eventId + ' does not exist'}}
+  </div>
+</ng-template>

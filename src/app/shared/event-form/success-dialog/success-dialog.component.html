@@ -1,0 +1,14 @@
+<h2 mat-dialog-title>{{'Success'}}</h2>
+<mat-dialog-content>
+  <p>{{message}}</p>
+</mat-dialog-content>
+<mat-dialog-actions>
+  <button mat-icon-button
+          (click)="close()">
+    <mat-icon>close</mat-icon>
+  </button>
+  <button mat-icon-button color="primary"
+          (click)="close()" routerLink="/">
+    <mat-icon>home</mat-icon>
+  </button>
+</mat-dialog-actions>

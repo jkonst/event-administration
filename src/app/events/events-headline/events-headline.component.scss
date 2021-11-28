@@ -1,0 +1,19 @@
+mat-card {
+  display: flex;
+}
+
+.main-headline {
+  width: calc(90%);
+}
+
+.main-headline:hover {
+  cursor: pointer;
+}
+
+.mat-card-title {
+  word-break: break-word;
+}
+
+mat-card-actions {
+  display: flex;
+}

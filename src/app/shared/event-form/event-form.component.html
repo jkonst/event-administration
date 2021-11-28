@@ -1,0 +1,33 @@
+<app-spinner></app-spinner>
+<div class="events-panel">
+  <h3 *ngIf="!event">{{'New Event'}}</h3>
+  <form [formGroup]="form" (ngSubmit)="submit()">
+    <app-event-title [parentForm]="form" [fieldName]="'title'" [label]="'Title'">
+    </app-event-title>
+    <app-date-time-picker
+      [parentForm]="form"
+      [groupName]="'duration'"
+      [fieldName1]="'startDateTime'"
+      [fieldName2]="'endDateTime'"
+      [label1]="'Start Date & Time'"
+      [label2]="'End Date & Time'">
+    </app-date-time-picker>
+    <mat-form-field>
+      <mat-label>{{'Description: '}}</mat-label>
+      <textarea
+        matInput
+        formControlName="description"
+      ></textarea>
+    </mat-form-field>
+    <app-locations
+      [parentForm]="form"
+      [fieldName]="'location'"
+      [label]="'Location'"
+    >
+    </app-locations>
+    <button mat-button [disabled]="form.invalid"
+            class="mat-raised-button mat-primary submit">
+      {{!event ? 'Create' : 'Update'}}
+    </button>
+  </form>
+</div>

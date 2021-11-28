@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 e3796d2f0ddff16480b1782b2a1463440e597a5b jkonst <yannis.konstas@gmail.com> 1636480251 +0200	branch: Created from HEAD
+e3796d2f0ddff16480b1782b2a1463440e597a5b c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f root <yannis.konstas@gmail.com> 1636486365 +0200	rebase finished: refs/heads/edit-feature onto c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f
+c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f 9dcc03f7ad8694b6aadeb7ef76e1e1eeab8fb1c8 jkonst <yannis.konstas@gmail.com> 1636567371 +0200	commit: implement edit functionality
+9dcc03f7ad8694b6aadeb7ef76e1e1eeab8fb1c8 25e02137d2b3a302f15eef8ce4e9295c0a144888 jkonst <yannis.konstas@gmail.com> 1636654293 +0200	commit: fix broken tests
+25e02137d2b3a302f15eef8ce4e9295c0a144888 0f840d2204831bed042d7e9c0e4841292662c987 jkonst <yannis.konstas@gmail.com> 1636654724 +0200	commit: reorganize imports between modules
+0f840d2204831bed042d7e9c0e4841292662c987 f2e5bc279d731e0bbc76cc0df76c1049eb75a77b jkonst <yannis.konstas@gmail.com> 1636895924 +0200	commit: improve unit test coverage
+f2e5bc279d731e0bbc76cc0df76c1049eb75a77b 14bd316da1dff4d01f02a25ab5abe8b42c924d8f jkonst <yannis.konstas@gmail.com> 1636900199 +0200	commit: fix bugs with editing location and startdate
+14bd316da1dff4d01f02a25ab5abe8b42c924d8f 60166d04eac13dc683bdfe659bedb32c38c4dd4e jkonst <yannis.konstas@gmail.com> 1636902247 +0200	commit: fix bug with location changes
+60166d04eac13dc683bdfe659bedb32c38c4dd4e baa90967f1fd8414189902571e403e5b0b99ee27 jkonst <yannis.konstas@gmail.com> 1636902424 +0200	commit: removed debug log

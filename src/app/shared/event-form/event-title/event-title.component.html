@@ -1,0 +1,10 @@
+<form *ngIf="parentForm" [formGroup]="parentForm">
+  <mat-form-field hintLabel="Max 35 characters">
+    <mat-label>{{label + ': '}}</mat-label>
+    <input matInput
+           [formControlName]="fieldName" maxlength="35" required>
+    <mat-error *ngIf="parentForm.get(fieldName)?.invalid">
+      {{'Title is required'}}
+    </mat-error>
+  </mat-form-field>
+</form>

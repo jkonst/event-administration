@@ -1,0 +1,47 @@
+:root {
+--evt-card-margin: 20px 10px;
+--evt-max-width: 400px;
+--evt-center-position: 0 auto;
+}
+
+.event-card {
+  margin: var(--evt-card-margin);
+}
+
+.events-panel {
+  max-width: var(--evt-max-width);
+  margin: var(--evt-center-position);
+}
+
+.event-actions {
+  text-align: center;
+}
+
+@keyframes spinner {
+  to {transform: rotate(360deg);}
+}
+
+.spinner:before {
+  content: '';
+  box-sizing: border-box;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  margin-top: -10px;
+  margin-left: -10px;
+  border-radius: 50%;
+  border: 2px solid #ffffff;
+  border-top-color: #000000;
+  animation: spinner .8s linear infinite;
+}
+
+.not-found {
+  margin: 10px;
+  text-align: center;
+}
+
+.refresh-wrapper {
+  text-align: center;
+}

@@ -1,0 +1,14 @@
+.powered-by {
+  margin: auto;
+}
+
+.author a {
+  cursor: pointer;
+  text-decoration: none;
+  color: var(--evt-pink);
+}
+
+.author a:hover {
+  color: var(--evt-link-color);
+}
+

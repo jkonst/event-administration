@@ -1,0 +1,16 @@
+<ng-container *ngIf="{events: events$ | async, isRefreshing: isRefreshing$ | async} as data">
+  <ng-container *ngIf="data?.events?.length === 0; else showEvents">
+    <div class="not-found">
+      {{'No Events found'}}
+    </div>
+  </ng-container>
+  <ng-template #showEvents>
+    <div class="refresh-wrapper">
+      <button mat-icon-button
+              (click)="refresh()" [class.spinner]="data.isRefreshing" [disabled]="data.isRefreshing">
+        <mat-icon matTooltip="Refresh List">refresh</mat-icon>
+      </button>
+    </div>
+    <app-events-headline [events]="data.events!" [category]="category!"></app-events-headline>
+  </ng-template>
+</ng-container>

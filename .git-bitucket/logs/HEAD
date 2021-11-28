@@ -1,0 +1,73 @@
+0000000000000000000000000000000000000000 bfbb56d9e0b6257130c9bbffba41ddeff0f1f33d root <yannis.konstas@gmail.com> 1635519965 +0300	commit (initial): initial commit
+bfbb56d9e0b6257130c9bbffba41ddeff0f1f33d c999da8d7e450ec9e5ab46d4c4d29c83b95f3c6e jkonst <yannis.konstas@gmail.com> 1635521595 +0300	commit: init angular app w/ jest
+c999da8d7e450ec9e5ab46d4c4d29c83b95f3c6e 7ff8bbaf793d88cc21a781bf6dbeec7290e5ae47 jkonst <yannis.konstas@gmail.com> 1635521974 +0300	pull: Fast-forward
+7ff8bbaf793d88cc21a781bf6dbeec7290e5ae47 56ee1e9d5ba4afccbd6b8d1759ffff7099665221 jkonst <yannis.konstas@gmail.com> 1635580834 +0300	commit: add material library
+56ee1e9d5ba4afccbd6b8d1759ffff7099665221 cf151d43295d850df5c0a762bcd005b290db863a jkonst <yannis.konstas@gmail.com> 1635580910 +0300	commit: add global colors scss
+cf151d43295d850df5c0a762bcd005b290db863a 82d43ad26b6f50e750914740d5232ed0a58a0ff9 root <yannis.konstas@gmail.com> 1635586031 +0300	commit: add header and footer
+82d43ad26b6f50e750914740d5232ed0a58a0ff9 6e5430956f706246b77a15e2430f80f2a124c356 root <yannis.konstas@gmail.com> 1635588424 +0300	commit: add home component
+6e5430956f706246b77a15e2430f80f2a124c356 76c088a632f75af93a278c33cefd3a3afb8c7e78 root <yannis.konstas@gmail.com> 1635588934 +0300	commit: create separate root directory for app module
+76c088a632f75af93a278c33cefd3a3afb8c7e78 2e23642c1bf06e506f75d0696969d6d95264b6a5 root <yannis.konstas@gmail.com> 1635595441 +0300	commit: add events model, container and store
+2e23642c1bf06e506f75d0696969d6d95264b6a5 df55c87be107edf2097d1afdd741f4f846a9d9ca root <yannis.konstas@gmail.com> 1635599093 +0300	commit: add events model, container and store
+df55c87be107edf2097d1afdd741f4f846a9d9ca 46dee88a9d3a55d7fd5ad8ec697c8c876735f476 root <yannis.konstas@gmail.com> 1635599148 +0300	commit: add events model, container and store
+46dee88a9d3a55d7fd5ad8ec697c8c876735f476 b6de55a53bb962ae84938414ec1f36689be12f4b root <yannis.konstas@gmail.com> 1635604865 +0300	commit: add event master/detail components and logic
+b6de55a53bb962ae84938414ec1f36689be12f4b 23449c92a27bc22bb28b925c5b004465b6d97776 root <yannis.konstas@gmail.com> 1635606124 +0300	commit: add feature module with routing for event creation
+23449c92a27bc22bb28b925c5b004465b6d97776 81640841bdc9eaef8e416d285fb7348e647032f9 root <yannis.konstas@gmail.com> 1635677047 +0200	commit: display proper message when no events are found
+81640841bdc9eaef8e416d285fb7348e647032f9 14fc82fae04f36f99cf74b79694d6fc97d935d05 root <yannis.konstas@gmail.com> 1635677114 +0200	commit: show datetimes in short format
+14fc82fae04f36f99cf74b79694d6fc97d935d05 d3eb2dedce309c473dc8a70b8ce1ff5a74cd2835 root <yannis.konstas@gmail.com> 1635677914 +0200	commit: fix bug with date pipe due to false string and date concat
+d3eb2dedce309c473dc8a70b8ce1ff5a74cd2835 d3c4eec32f14ac1f7a3e8c3c678635c617db4688 root <yannis.konstas@gmail.com> 1635678368 +0200	commit: add create event functionality with datetime pickers
+d3c4eec32f14ac1f7a3e8c3c678635c617db4688 84705d6d826bb1c00f9f57ae2de07c237f3f099b root <yannis.konstas@gmail.com> 1635678961 +0200	commit: add uuid for events ids
+84705d6d826bb1c00f9f57ae2de07c237f3f099b c4ed470536d8d5b5e076534d5b5d8c2215832c39 root <yannis.konstas@gmail.com> 1635683092 +0200	commit: support field validation on create event form
+c4ed470536d8d5b5e076534d5b5d8c2215832c39 637edc0461aca19bb7a932936feafe892d659ec7 root <yannis.konstas@gmail.com> 1635702789 +0200	commit: improve form submission + navigation
+637edc0461aca19bb7a932936feafe892d659ec7 b27c951fdf84df6af4e1038b83efcf899bb7bc80 root <yannis.konstas@gmail.com> 1635707887 +0200	commit: enable navigation from details to the correct master
+b27c951fdf84df6af4e1038b83efcf899bb7bc80 743737807ced2f78d27c3db9f1d77db5d7c93553 root <yannis.konstas@gmail.com> 1635708180 +0200	commit: styling improvement
+743737807ced2f78d27c3db9f1d77db5d7c93553 9f8778409c114891089b6bd9c831d30ab41b9e97 root <yannis.konstas@gmail.com> 1635789295 +0200	commit: split form to child components for readability
+9f8778409c114891089b6bd9c831d30ab41b9e97 3a0dac21cde74a0f47788a29460cf74b9293e572 root <yannis.konstas@gmail.com> 1635789900 +0200	commit: fix bug w/ guard not evaluating query param on home url
+3a0dac21cde74a0f47788a29460cf74b9293e572 01483177bfa42a587d300d8313c32a1f566615bf root <yannis.konstas@gmail.com> 1635877800 +0200	commit: add unit tests baseline
+01483177bfa42a587d300d8313c32a1f566615bf f845318cb91bae3bbc958e8c4aec4a3732fd24ab root <yannis.konstas@gmail.com> 1635952566 +0200	commit: ux improvement by removing unnecessary button
+f845318cb91bae3bbc958e8c4aec4a3732fd24ab 85bb270c749f7e66f1cc9082b1644a49c9dbc7a0 root <yannis.konstas@gmail.com> 1636141674 +0200	commit: refresh events + paginated lists + delete action
+85bb270c749f7e66f1cc9082b1644a49c9dbc7a0 2cbb447c5e6b58456f380869e0909c88ed98900f root <yannis.konstas@gmail.com> 1636143498 +0200	commit: add spinner on refresh button to avoid repetitive clicks
+2cbb447c5e6b58456f380869e0909c88ed98900f 12e58c275d4366b7446e092e6927cbf5756e4d38 root <yannis.konstas@gmail.com> 1636188661 +0200	commit: improvement
+12e58c275d4366b7446e092e6927cbf5756e4d38 9d9ad8ec92101fc308a525c1ca5b1793ffc36919 root <yannis.konstas@gmail.com> 1636193272 +0200	commit: concat instead of merge 2 observables
+9d9ad8ec92101fc308a525c1ca5b1793ffc36919 4812ee593d10a1ffe317597922a7766a47218dbd root <yannis.konstas@gmail.com> 1636198609 +0200	commit: add locations for longitude and latitude required by weather api
+4812ee593d10a1ffe317597922a7766a47218dbd 34723514104ed610cd840a35477c1163d34be278 root <yannis.konstas@gmail.com> 1636198866 +0200	commit: remove debug log
+34723514104ed610cd840a35477c1163d34be278 7dc9010017492711114416b0049702d0f2301787 root <yannis.konstas@gmail.com> 1636208669 +0200	commit: refactor create-event to a shared form so that it can be re-used
+7dc9010017492711114416b0049702d0f2301787 ca7af6d2053ac6cadd07f6444526e676fb17dc96 root <yannis.konstas@gmail.com> 1636225453 +0200	commit: bonus integration w/ weather api
+ca7af6d2053ac6cadd07f6444526e676fb17dc96 a1b8390d99d8c865a7ce4ce3c48a4679c5e592c1 root <yannis.konstas@gmail.com> 1636226293 +0200	commit: improvement when event does not exist on details view
+a1b8390d99d8c865a7ce4ce3c48a4679c5e592c1 648527b37ffb4678f4ca782bd7cb240e9ba4a643 root <yannis.konstas@gmail.com> 1636229238 +0200	commit: support weather icons on event details
+648527b37ffb4678f4ca782bd7cb240e9ba4a643 cefdebe97134bcc19b0ad8f48619ddf4d29f9ff6 root <yannis.konstas@gmail.com> 1636229996 +0200	commit: fix bug with weather icons when there is no forecast
+cefdebe97134bcc19b0ad8f48619ddf4d29f9ff6 4e1004347be9246ae58c0ece7b89794b84a2baad root <yannis.konstas@gmail.com> 1636230409 +0200	commit: change favicon
+4e1004347be9246ae58c0ece7b89794b84a2baad 733223e42e5f2ba182c1087947485150330921ac root <yannis.konstas@gmail.com> 1636281172 +0200	commit: clean up code
+733223e42e5f2ba182c1087947485150330921ac f353a3c4d7104c76bc84d020a9c8b0ff3200e64f root <yannis.konstas@gmail.com> 1636283824 +0200	commit: fix broken tests
+f353a3c4d7104c76bc84d020a9c8b0ff3200e64f 479ef8baba8e948c25f0b44b0d5df254a0a65687 jkonst <yannis.konstas@gmail.com> 1636310272 +0200	commit: update README
+479ef8baba8e948c25f0b44b0d5df254a0a65687 3a8d9b3d35d8cb2f1be62280682f1c56cade9c0a root <yannis.konstas@gmail.com> 1636310301 +0200	commit: improve unit test coverage
+3a8d9b3d35d8cb2f1be62280682f1c56cade9c0a e5401d429986282baeaaf0436dd9d78d1cb68165 jkonst <yannis.konstas@gmail.com> 1636310540 +0200	pull: Fast-forward
+e5401d429986282baeaaf0436dd9d78d1cb68165 29eebb3b2f1b58b35303a1b946ed1840a623dc09 jkonst <yannis.konstas@gmail.com> 1636393595 +0200	commit: fix bug with invalid location and reduce max chars
+29eebb3b2f1b58b35303a1b946ed1840a623dc09 207f7d4ae61e9c9db644728bd4c9802e985ed184 root <yannis.konstas@gmail.com> 1636394166 +0200	commit: break word for big titles on headlines
+207f7d4ae61e9c9db644728bd4c9802e985ed184 e3796d2f0ddff16480b1782b2a1463440e597a5b jkonst <yannis.konstas@gmail.com> 1636476628 +0200	commit: fix issue w/ long descriptions
+e3796d2f0ddff16480b1782b2a1463440e597a5b e3796d2f0ddff16480b1782b2a1463440e597a5b jkonst <yannis.konstas@gmail.com> 1636480251 +0200	checkout: moving from master to edit-feature
+e3796d2f0ddff16480b1782b2a1463440e597a5b e3796d2f0ddff16480b1782b2a1463440e597a5b jkonst <yannis.konstas@gmail.com> 1636480257 +0200	checkout: moving from edit-feature to master
+e3796d2f0ddff16480b1782b2a1463440e597a5b 4d1b2497ed405aa74fe530ec52bc695911cfed96 jkonst <yannis.konstas@gmail.com> 1636484976 +0200	commit: center footer content
+4d1b2497ed405aa74fe530ec52bc695911cfed96 2942982f01a200d1015418d0d6f0cc0b1d87d08d jkonst <yannis.konstas@gmail.com> 1636484995 +0200	commit: add firebase
+2942982f01a200d1015418d0d6f0cc0b1d87d08d a4195922660ad0bfbb7325745e4edf18e4bf9e31 jkonst <yannis.konstas@gmail.com> 1636485335 +0200	commit: update gitignore for firebase
+a4195922660ad0bfbb7325745e4edf18e4bf9e31 c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f jkonst <yannis.konstas@gmail.com> 1636485589 +0200	commit: update README with firebase url
+c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f jkonst <yannis.konstas@gmail.com> 1636485901 +0200	rebase -i (start): checkout bfbb56d
+c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f jkonst <yannis.konstas@gmail.com> 1636485901 +0200	rebase -i (finish): returning to refs/heads/master
+c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f e3796d2f0ddff16480b1782b2a1463440e597a5b root <yannis.konstas@gmail.com> 1636486346 +0200	checkout: moving from master to edit-feature
+e3796d2f0ddff16480b1782b2a1463440e597a5b c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f root <yannis.konstas@gmail.com> 1636486365 +0200	rebase: checkout master
+c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f root <yannis.konstas@gmail.com> 1636486365 +0200	rebase finished: returning to refs/heads/edit-feature
+c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f 9dcc03f7ad8694b6aadeb7ef76e1e1eeab8fb1c8 jkonst <yannis.konstas@gmail.com> 1636567371 +0200	commit: implement edit functionality
+9dcc03f7ad8694b6aadeb7ef76e1e1eeab8fb1c8 25e02137d2b3a302f15eef8ce4e9295c0a144888 jkonst <yannis.konstas@gmail.com> 1636654293 +0200	commit: fix broken tests
+25e02137d2b3a302f15eef8ce4e9295c0a144888 0f840d2204831bed042d7e9c0e4841292662c987 jkonst <yannis.konstas@gmail.com> 1636654724 +0200	commit: reorganize imports between modules
+0f840d2204831bed042d7e9c0e4841292662c987 f2e5bc279d731e0bbc76cc0df76c1049eb75a77b jkonst <yannis.konstas@gmail.com> 1636895924 +0200	commit: improve unit test coverage
+f2e5bc279d731e0bbc76cc0df76c1049eb75a77b 14bd316da1dff4d01f02a25ab5abe8b42c924d8f jkonst <yannis.konstas@gmail.com> 1636900199 +0200	commit: fix bugs with editing location and startdate
+14bd316da1dff4d01f02a25ab5abe8b42c924d8f 60166d04eac13dc683bdfe659bedb32c38c4dd4e jkonst <yannis.konstas@gmail.com> 1636902247 +0200	commit: fix bug with location changes
+60166d04eac13dc683bdfe659bedb32c38c4dd4e baa90967f1fd8414189902571e403e5b0b99ee27 jkonst <yannis.konstas@gmail.com> 1636902424 +0200	commit: removed debug log
+baa90967f1fd8414189902571e403e5b0b99ee27 baa90967f1fd8414189902571e403e5b0b99ee27 jkonst <yannis.konstas@gmail.com> 1637409013 +0200	reset: moving to HEAD
+baa90967f1fd8414189902571e403e5b0b99ee27 c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f jkonst <yannis.konstas@gmail.com> 1637409033 +0200	checkout: moving from edit-feature to master
+c3d6ea7838fb97fd37858f898991a1b4a0ed3f8f 2caea49fc5b9896cdf06702b41f1f4d84a094251 jkonst <yannis.konstas@gmail.com> 1637409042 +0200	pull: Fast-forward
+2caea49fc5b9896cdf06702b41f1f4d84a094251 3c9620802e7f35d9e430c97458bd029d41bb742c jkonst <yannis.konstas@gmail.com> 1637409393 +0200	commit: remove unused FormsModule
+3c9620802e7f35d9e430c97458bd029d41bb742c e4dc5b1261ba4f20d02ab0e5fc24db91762ccc2e jkonst <yannis.konstas@gmail.com> 1637432949 +0200	commit: rename validator service
+e4dc5b1261ba4f20d02ab0e5fc24db91762ccc2e 96116da58f02d4221e65db85d3e2e430df37bff9 jkonst <yannis.konstas@gmail.com> 1637497926 +0200	commit: group date pickers to a nested form group
+96116da58f02d4221e65db85d3e2e430df37bff9 ece461b573b11c316ce9ab6c6c015ef4c68454bf jkonst <yannis.konstas@gmail.com> 1637498549 +0200	commit: move location validation to the form control for consistency
+ece461b573b11c316ce9ab6c6c015ef4c68454bf bc5f0b9c34c8637b06ead1c57e151ed921419dad jkonst <yannis.konstas@gmail.com> 1637499540 +0200	commit: fix broken tests
+bc5f0b9c34c8637b06ead1c57e151ed921419dad da195cf20a1d7c3e88165597858af7b1d4d32778 jkonst <yannis.konstas@gmail.com> 1637527522 +0200	commit: restructure modules + bug fix(due to nested form group)

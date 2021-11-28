@@ -1,0 +1,17 @@
+<form *ngIf="parentForm" [formGroup]="parentForm">
+  <mat-form-field>
+    <mat-label>{{label + ': '}}</mat-label>
+    <input type="text"
+           matInput
+           [formControlName]="fieldName"
+           [matAutocomplete]="auto">
+    <mat-autocomplete #auto="matAutocomplete" [displayWith]="displayFn">
+      <mat-option *ngFor="let location of filteredLocations$ | async" [value]="location">
+        {{location.name + ' (' + location.countryISO + ')' }}
+      </mat-option>
+    </mat-autocomplete>
+    <mat-error *ngIf="parentForm.get(fieldName)?.errors?.invalidLocation">
+      {{'Selected location is invalid'}}
+    </mat-error>
+  </mat-form-field>
+</form>

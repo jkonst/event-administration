@@ -1,0 +1,35 @@
+<form *ngIf="parentForm" [formGroup]="parentForm">
+  <div [formGroupName]="groupName">
+    <mat-form-field>
+      <input matInput [ngxMatDatetimePicker]="$any(picker)" [placeholder]="label1"
+             [formControlName]="fieldName1"
+             required
+      >
+      <mat-datepicker-toggle matSuffix [for]="$any(picker)"></mat-datepicker-toggle>
+      <ngx-mat-datetime-picker #picker [showSpinners]="true" [showSeconds]="false"
+                               [stepHour]="1" [stepMinute]="1" [stepSecond]="1"
+                               [touchUi]="false" [color]="'primary'" [enableMeridian]="false">
+      </ngx-mat-datetime-picker>
+      <mat-error *ngIf="parentForm?.get(groupName + '.' + fieldName1)?.invalid">
+        {{label1}} {{' is required'}}
+      </mat-error>
+    </mat-form-field>
+    <mat-form-field>
+      <input matInput [ngxMatDatetimePicker]="$any(picker2)" [placeholder]="label2"
+             [formControlName]="fieldName2"
+             required
+      >
+      <mat-datepicker-toggle matSuffix [for]="$any(picker2)"></mat-datepicker-toggle>
+      <ngx-mat-datetime-picker #picker2 [showSpinners]="true" [showSeconds]="false"
+                               [stepHour]="1" [stepMinute]="1" [stepSecond]="1"
+                               [touchUi]="false" [color]="'primary'" [enableMeridian]="false">
+      </ngx-mat-datetime-picker>
+      <mat-error *ngIf="parentForm?.get(groupName + '.' + fieldName2)?.invalid">
+        {{label2}} {{' is required'}}
+      </mat-error>
+    </mat-form-field>
+    <mat-error *ngIf="parentForm?.get(groupName)?.errors?.endDateBeforeStartDate">
+      {{'End Date & Time must be after Start Date & Time'}}
+    </mat-error>
+  </div>
+</form>
